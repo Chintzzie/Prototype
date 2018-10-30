@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <fragment
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/settings"
+    android:name="e.dell.prototype.Settingsfragment"
+     />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Child-Pass"
+        android:layout_marginLeft="60dp"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:textColor="#bc2211"
+        android:fontFamily="sans-serif-smallcaps"
+        android:id="@+id/pass1_show"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Basic-Pass"
+        android:layout_marginLeft="60dp"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:padding="5dp"
+        android:textColor="#e608de"
+        android:id="@+id/pass2_show"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Show VIP-Pass"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:textColor="#037cdf"
+        android:id="@+id/pass3_show"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Show Master-Pass"
+        android:layout_marginLeft="60dp"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:textColor="#fb0ac220"
+        android:id="@+id/pass4_show"
+        />
+</LinearLayout>

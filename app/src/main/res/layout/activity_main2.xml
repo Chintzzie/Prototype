@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+    <Button
+        android:id="@+id/internet"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="53dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/chrome2"
+        tools:layout_marginLeft="54dp" />
+
+    <Button
+        android:id="@+id/cam"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@id/internet"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@id/internet"
+        android:layout_marginTop="167dp"
+        android:background="@drawable/cam" />
+
+    <Button
+        android:id="@+id/call"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/internet"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:background="@drawable/call"
+        tools:background="@drawable/dialernum2" />
+
+    <Button
+        android:id="@+id/settings"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignStart="@+id/call"
+        android:layout_alignLeft="@id/call"
+        android:layout_alignTop="@+id/cam"
+        android:background="@drawable/settingtrans" />
+
+    <Button
+        android:id="@+id/whatsapp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@id/internet"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@id/internet"
+        android:layout_marginBottom="166dp"
+        android:background="@drawable/whatsappnum2"
+        tools:layout_width="80dp" />
+
+    <Button
+        android:id="@+id/lock"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@id/call"
+        android:layout_alignStart="@+id/call"
+        android:layout_alignTop="@+id/whatsapp"
+        android:background="@drawable/lockicon" />
+
+    <Button
+        android:id="@+id/gallery"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@id/internet"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@id/internet"
+        android:layout_marginBottom="34dp"
+        android:background="@drawable/gallery" />
+
+    <Button
+        android:id="@+id/game"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@id/call"
+        android:layout_alignStart="@id/call"
+        android:layout_alignTop="@id/gallery"
+        android:background="@drawable/game" />
+
+</RelativeLayout>
+

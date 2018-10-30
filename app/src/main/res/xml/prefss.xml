@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<CheckBoxPreference
+    android:title="Status"
+    android:key="status"
+    android:defaultValue="true"
+    android:summaryOn="Enabled"
+    android:summaryOff="Disabled"
+    />
+    <EditTextPreference
+        android:title="Change Child-Pass"
+        android:key="pass1_key"
+        android:inputType="textPassword"
+        android:defaultValue="1234"
+        />
+    <EditTextPreference
+        android:title="Change Basic-Pass"
+        android:key="pass2_key"
+        android:inputType="textPassword"
+        android:defaultValue="1122"
+        />
+    <EditTextPreference
+        android:title="Change VIP-Pass"
+        android:key="pass3_key"
+        android:inputType="textPassword"
+        android:defaultValue="3344"
+        />
+    <EditTextPreference
+        android:title="Change Master-Pass"
+        android:key="pass4_key"
+        android:inputType="textPassword"
+        android:defaultValue="4321"
+        />
+</PreferenceScreen>
